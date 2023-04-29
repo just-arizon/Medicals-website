@@ -5,6 +5,10 @@
     box-sizing:border-box;
     font-family: "Poppins", sans-serif;
 }
+:root {
+  --font-family-base: 'Poppins', sans-serif;
+}
+
 html {
     font-size: 16px;
   }
@@ -24,7 +28,7 @@ header {
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
 div.header h1{
-    font-family: "Poppins",sans-serif;
+    font-family: var(--font-family-base);
     font-weight: 700;
 }
 
