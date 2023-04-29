@@ -1,0 +1,22 @@
+{
+  "name": "medicals-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/just-arizon/Medicals-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/just-arizon/Medicals-website/issues"
+  },
+  "homepage": "https://github.com/just-arizon/Medicals-website#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
