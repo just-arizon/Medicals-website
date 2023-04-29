@@ -11,61 +11,78 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="logo"><a href="#" class="navbar-brand">Logo</a></div>
-            <div class="navlinks">
-                <div class="navlink_container">
-                    <ul>
-                        <li><a href="">links</a></li>
-                        <li><a href="">links</a></li>
-                        <li><a href="">links</a></li>
-                        <li><a href="">links</a></li>
-                    </ul>
-                </div>
-                <div class="call-to-action">
-                    <div class="call-to-action__btn">
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container">
+                <a href="#" class="navbar-brand">Logo</a>
+                
+                <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                  <ul class="navbar-nav ms-auto mx-5">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">link1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">link2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">link3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">link4</a>
+                    </li>
+                  </ul>
+                  <div class="call-to-action">
+                    <div class="btn btn-primary">
                         Call Center
                     </div>
                 </div>
+                </div>
+                
+                </div>
+                
             </div>          
         </nav>
-        <section>
-              <div class="wrapper">
-                <div class="wrapper--container">
+        <!-- Showcase -->
+        <section class="p-5 text-sm-start text-center ">
+              <div class="container">
+                <div class="wrapper--container d-sm-flex">
                     <div class="wrapper--container_message">
                         <div class="heading">
                             <h1>With Vaccination
                             </br>
                                 We Can End This 
                                                 </br>Pandemic</h1>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aperiam voluptate accusamus ut amet tempore tenetur repellat ipsa eius vel!</p>
+                                                <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aperiam voluptate accusamus ut amet tempore tenetur repellat ipsa eius vel!</p>
                         </div>
                         <div class="heading-element">
-                            <div class="elmt-is-a-btn">
+                            <button class="btn btn-primary btn-md">
                                 Learn More
-                            </div>
+                            </button>
                         </div>
                         </div>
                         <div class="wrapper--container_img">
-                            <img src="./images/Nurse image design.svg" alt="">
+                            <img class= "img-fluid" src="./images/Nurse image design.svg" alt="">
                         </div>
                     </div>
                    
                 </div>
         </section>
-         <section class="company-logos">
-        <div class="trusted-company--logos">
-            <ul class="company--unordered_list">
+         <section class="p-5 text-sm-start text-center">
+        <div class="container">
+            <ul class="d-flex list-unstyled">
                 
-                           <li><img src="./images/SINOVAC.png" alt="company logos"></li>
-                           <li><img src="./images/AstraZeneca.png" alt="company logos"></li>
-                           <li><img src="./images/pfier.png" alt="company logos"></li>
-                           <li><img src="./images/moderna.png" alt="company logos"></li>
+                           <li class="list-item"><img class="img-fluid mx-5 w-50"src="./images/SINOVAC.png" alt="company logos"></li>
+                           <li class="list-item"><img class="img-fluid mx-5 w-50" src="./images/AstraZeneca.png" alt="company logos"></li>
+                           <li class="list-item"><img class=" img-fluid mx-5 w-50" src="./images/pfier.png" alt="company logos"></li>
+                           <li class="list-item"><img class=" img-fluid mx-5 w-50" src="./images/moderna.png" alt="company logos"></li>
             </ul>
         </div>
     </section>
     </header>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+   <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
 </html>
