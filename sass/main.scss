@@ -1,8 +1,4 @@
+$headings-font-weight: 900 !default;
+$font-family-sans-serif: "Roboto Condensed";
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-
-// Then add additional custom code here
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
-:root {
-    --bs-body-font-family: "Noto Sans KR",sans-serif;
-}
