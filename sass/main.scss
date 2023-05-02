@@ -1,4 +1,9 @@
 $headings-font-weight: 900 !default;
-$font-family-sans-serif: "Roboto Condensed";
+$font-family-sans-serif: "Montserrat";
+$headings-color:   #454444e9;
+$lead-font-weight:            700 !default;
+$badge-font-size:                   1em !default;
+$badge-color:                      #454444e9 !default;
+$link-hover-color:                    #fff !default;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
