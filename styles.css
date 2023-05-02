@@ -33,6 +33,9 @@ header {
 .para-text {
   font-family: "Poppins";
 }
+.para-text-color {
+  color: #000;
+}
 .wrapper--container {
   display: flex;
   gap: 3rem;
